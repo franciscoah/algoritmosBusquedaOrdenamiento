@@ -1,8 +1,4 @@
 """
-	Radix Sort
-	Autores:	Hernández García Luis Angel
-				Vázquez Sánchez Ilse Abril
-	
 	Este algoritmo realiza el ordenamiento procesando los dígitos de los números
 	de forma individual. Para este caso se uso la versión LSD (Least Significant Digit).
 	

@@ -1,5 +1,4 @@
 """	Merge Sort
-	Autores: Hernandez Garcia Luis Angel
 	
     Basado en la técnica "divide y vencerás". De complejidad O(n log(n)).
 	
@@ -18,7 +17,8 @@ def merge(l1, l2):
 	while(len(l1) > 0 and len(l2) > 0):
 		if l1[0] < l2[0]:
 			l3.append(l1[0])
-			l1 = l1[1:]
+		
+		l1 = l1[1:]
 		else:
 			l3.append(l2[0])
 			l2 = l2[1:]
